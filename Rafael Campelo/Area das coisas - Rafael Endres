@@ -1,0 +1,4 @@
+escreva "Qual o lado do quadrado?"
+var lado := leia_inteiro 
+var area := lado * lado
+escreva "A área do quadrado é {area}"
