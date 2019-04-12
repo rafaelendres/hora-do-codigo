@@ -1,0 +1,15 @@
+escreva "A intenção é trocar o valor das suas duas variáveis escolhidas"
+
+    var primeiro := leia_inteiro
+    var segundo := leia_inteiro
+
+ escreva "De início.."
+ escreva "Primeiro: {primeiro}   |   segundo: {segundo}"
+
+ var r := 0
+ r := primeiro
+ primeiro := segundo
+ segundo := r
+ escreva "Logo após..."
+ escreva "Primeiro: {primeiro}   |  segundo: {segundo}"
+
