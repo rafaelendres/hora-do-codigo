@@ -1,0 +1,4 @@
+escreva "insira algum número"
+var fator := leia_inteiro 
+var produto := fator * 2 
+escreva " Valor de produto = {produto} "
