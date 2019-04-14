@@ -1,4 +1,47 @@
+# Área do quadrado
 escreva "Qual o lado do quadrado?"
-var lado := leia_inteiro 
+var lado := leia_inteiro
 var area := lado * lado
 escreva "A área do quadrado é {area}"
+
+# area do triangulo
+escreva "Qual o valor da base do triangulo?"
+var base := leia_inteiro
+escreva "Qual o valor da altura do triangulo?"
+var altura := leia_inteiro
+var area_do_triangulo := base * altura/2
+escreva "A area do triangulo é {area_do_triangulo}"
+
+# area do retangulo
+escreva "Qual o valor da base do retangulo?"
+var base_do_retangulo := leia_inteiro
+escreva "Qual o valor da altura do retangulo?"
+var altura_do_retangulo := leia_inteiro
+var area_do_retangulo := base_do_retangulo * altura_do_retangulo
+escreva "a area do retangulo é {area_do_retangulo}"
+
+# area do losango
+escreva "Qual o valor da diagonal maior do losango?"
+var d_maior := leia_inteiro
+escreva "Qual o valor da diagonal menor do losango?"
+var d_menor := leia_inteiro
+var area_do_losango := d_menor * d_maior/2
+escreva "A area do losango é {area_do_losango}"
+
+# area do trapezio
+escreva "Qual o valor da base maior do trapézio?"
+var b_maior := leia_inteiro
+escreva "Qual o valor da base menor do trapézio?"
+var b_menor := leia_inteiro
+escreva "Qual o valor da altura do trapézio?"
+var altura_do_trapezio := leia_inteiro
+var area_do_trapezio := (b_menor + b_maior) *altura_do_trapezio /2
+escreva "area do trapézio é {area_do_trapezio}"
+
+# area do circulo
+escreva "Qual o valor do raio do círculo?"
+var raio := leia_inteiro
+escreva "Qual o valor desejado à pi?"
+var pi := leia_real
+var area_do_circulo := raio * raio * pi
+escreva "O valor da área do círculo é {area_do_circulo}"
